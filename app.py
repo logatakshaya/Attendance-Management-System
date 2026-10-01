@@ -41,128 +41,128 @@ st.markdown(
     """
 <style>
 .stApp {
-    background-color: #f5f7fb;
+background-color: #f5f7fb;
 }
 
 section[data-testid="stSidebar"] {
-    background-color: #ffffff;
-    border-right: 1px solid #e5e7eb;
+background-color: #ffffff;
+border-right: 1px solid #e5e7eb;
 }
 
 .sidebar-title {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-    color: #1e3a8a;
-    margin-bottom: 5px;
+text-align: center;
+font-size: 24px;
+font-weight: 700;
+color: #1e3a8a;
+margin-bottom: 5px;
 }
 
 .sidebar-subtitle {
-    text-align: center;
-    font-size: 13px;
-    color: #64748b;
-    margin-bottom: 25px;
+text-align: center;
+font-size: 13px;
+color: #64748b;
+margin-bottom: 25px;
 }
 
 h1 {
-    color: #172554;
-    font-weight: 700;
+color: #172554;
+font-weight: 700;
 }
 
 h2 {
-    color: #1e3a8a;
+color: #1e3a8a;
 }
 
 h3 {
-    color: #1e40af;
+color: #1e40af;
 }
 
 .dashboard-card {
-    background-color: #ffffff;
-    padding: 22px;
-    border-radius: 14px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
-    text-align: center;
-    margin-bottom: 15px;
+background-color: #ffffff;
+padding: 22px;
+border-radius: 14px;
+border: 1px solid #e5e7eb;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+text-align: center;
+margin-bottom: 15px;
 }
 
 .card-title {
-    color: #64748b;
-    font-size: 14px;
-    font-weight: 600;
-    margin-bottom: 8px;
+color: #64748b;
+font-size: 14px;
+font-weight: 600;
+margin-bottom: 8px;
 }
 
 .card-value {
-    color: #1e3a8a;
-    font-size: 30px;
-    font-weight: 700;
+color: #1e3a8a;
+font-size: 30px;
+font-weight: 700;
 }
 
 .welcome-banner {
-    background: linear-gradient(135deg, #1e3a8a, #2563eb);
-    color: white;
-    padding: 28px;
-    border-radius: 16px;
-    margin-bottom: 25px;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.20);
+background: linear-gradient(135deg, #1e3a8a, #2563eb);
+color: white;
+padding: 28px;
+border-radius: 16px;
+margin-bottom: 25px;
+box-shadow: 0 4px 12px rgba(37, 99, 235, 0.20);
 }
 
 .welcome-title {
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 6px;
+font-size: 28px;
+font-weight: 700;
+margin-bottom: 6px;
 }
 
 .welcome-text {
-    font-size: 15px;
-    opacity: 0.9;
+font-size: 15px;
+opacity: 0.9;
 }
 
 .login-title {
-    text-align: center;
-    color: #1e3a8a;
-    font-size: 30px;
-    font-weight: 700;
+text-align: center;
+color: #1e3a8a;
+font-size: 30px;
+font-weight: 700;
 }
 
 .login-subtitle {
-    text-align: center;
-    color: #64748b;
-    margin-bottom: 25px;
+text-align: center;
+color: #64748b;
+margin-bottom: 25px;
 }
 
 .login-card {
-    background-color: #ffffff;
-    padding: 35px;
-    border-radius: 18px;
-    border: 1px solid #e5e7eb;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-    margin-bottom: 20px;
+background-color: #ffffff;
+padding: 35px;
+border-radius: 18px;
+border: 1px solid #e5e7eb;
+box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+margin-bottom: 20px;
 }
 
 .stButton > button {
-    border-radius: 8px;
-    font-weight: 600;
-    min-height: 42px;
+border-radius: 8px;
+font-weight: 600;
+min-height: 42px;
 }
 
 div[data-testid="stDataFrame"] {
-    border-radius: 10px;
-    overflow: hidden;
+border-radius: 10px;
+overflow: hidden;
 }
 
 hr {
-    border-color: #e5e7eb;
+border-color: #e5e7eb;
 }
 
 .footer {
-    text-align: center;
-    color: #64748b;
-    font-size: 13px;
-    padding: 25px;
-    margin-top: 30px;
+text-align: center;
+color: #64748b;
+font-size: 13px;
+padding: 25px;
+margin-top: 30px;
 }
 </style>
 """,
@@ -185,12 +185,12 @@ if not st.session_state.logged_in:
     st.markdown(
         """
 <div class="login-card">
-    <div class="login-title">
-        📋 Attendance Management System
-    </div>
-    <div class="login-subtitle">
-        Secure Administrator Login
-    </div>
+<div class="login-title">
+📋 Attendance Management System
+</div>
+<div class="login-subtitle">
+Secure Administrator Login
+</div>
 </div>
 """,
         unsafe_allow_html=True
@@ -247,9 +247,9 @@ if not st.session_state.logged_in:
     st.markdown(
         """
 <div class="footer">
-    📋 <b>Attendance Management System</b><br>
-    Student Attendance Tracking Platform<br>
-    Developed using Python & Streamlit
+📋 <b>Attendance Management System</b><br>
+Student Attendance Tracking Platform<br>
+Developed using Python & Streamlit
 </div>
 """,
         unsafe_allow_html=True
@@ -322,18 +322,7 @@ st.sidebar.caption(
 if menu == "📊 Dashboard":
 
     st.markdown(
-        """
-<div class="welcome-banner">
-    <div class="welcome-title">
-        📊 Attendance Dashboard
-    </div>
-
-    <div class="welcome-text">
-        Welcome to the Attendance Management System.
-        Manage students, attendance and reports from one place.
-    </div>
-</div>
-""",
+        """<div class="welcome-banner"><div class="welcome-title">📊 Attendance Dashboard</div><div class="welcome-text">Welcome to the Attendance Management System.<br>Manage students, attendance and reports from one place.</div></div>""",
         unsafe_allow_html=True
     )
 
@@ -373,68 +362,28 @@ if menu == "📊 Dashboard":
     with col1:
 
         st.markdown(
-            f"""
-<div class="dashboard-card">
-    <div class="card-title">
-        👨‍🎓 TOTAL STUDENTS
-    </div>
-
-    <div class="card-value">
-        {len(students)}
-    </div>
-</div>
-""",
+            f"""<div class="dashboard-card"><div class="card-title">👨‍🎓 TOTAL STUDENTS</div><div class="card-value">{len(students)}</div></div>""",
             unsafe_allow_html=True
         )
 
     with col2:
 
         st.markdown(
-            f"""
-<div class="dashboard-card">
-    <div class="card-title">
-        ✅ PRESENT TODAY
-    </div>
-
-    <div class="card-value">
-        {present_today}
-    </div>
-</div>
-""",
+            f"""<div class="dashboard-card"><div class="card-title">✅ PRESENT TODAY</div><div class="card-value">{present_today}</div></div>""",
             unsafe_allow_html=True
         )
 
     with col3:
 
         st.markdown(
-            f"""
-<div class="dashboard-card">
-    <div class="card-title">
-        ❌ ABSENT TODAY
-    </div>
-
-    <div class="card-value">
-        {absent_today}
-    </div>
-</div>
-""",
+            f"""<div class="dashboard-card"><div class="card-title">❌ ABSENT TODAY</div><div class="card-value">{absent_today}</div></div>""",
             unsafe_allow_html=True
         )
 
     with col4:
 
         st.markdown(
-            f"""
-<div class="dashboard-card">
-    <div class="card-title">
-        📊 ATTENDANCE
-    </div>
-
-    <div class="card-value">
-        {attendance_percentage:.1f}%
-    </div>
-</div>
-""",
+            f"""<div class="dashboard-card"><div class="card-title">📊 ATTENDANCE</div><div class="card-value">{attendance_percentage:.1f}%</div></div>""",
             unsafe_allow_html=True
         )
 
@@ -1337,9 +1286,9 @@ elif menu == "📈 Reports":
 st.markdown(
     """
 <div class="footer">
-    📋 <b>Attendance Management System</b><br>
-    Student Attendance Tracking Platform<br>
-    Developed using Python & Streamlit
+📋 <b>Attendance Management System</b><br>
+Student Attendance Tracking Platform<br>
+Developed using Python & Streamlit
 </div>
 """,
     unsafe_allow_html=True
